@@ -44,6 +44,7 @@ class SiteController extends Controller
 				echo $error['message'];
 			else
 				$this->render('error', $error);
+            //test
 		}
 	}
 
